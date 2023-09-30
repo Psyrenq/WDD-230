@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chamber Home Page Build</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/medium.css">
+<link rel="stylesheet" href="styles/large.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap" rel="stylesheet">
+<meta description = "Chamber of Commerce, River Rhodes, WDD230">
+</head>
+<body>
+<!--Header-->
+<header>
+    <div class="special-date">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
+<div class="logo">
+    <picture><img src="images/logo.webp" alt="Chamber of Commerce Logo"></picture>
+<section class="headings">
+        <h1>Fort Wayne</h1>
+        <div class="q">Chamber of Commerce</div>
+</section>
+</div>
+<!--Navigation-->
+<nav>
+    <button id="menu-button" class="open">
+        <span>X</span><span>&#9776;</span>
+    </button>
+    <ul id="navigation" class="close">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Discovery</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="">Join</a></li>
+        <li><a href="">Contact</a></li>
+    <!--Social Media-->
+        <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
+        <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></l>
+    </ul>
+</nav>
+<!--Current Date-->
+    <div class="date"></div>
+</header>
+<!--Content-->
+<main class="index">
+    
+    <div class="event">
+        <section class="announcement">
+            Site Purpose
+        </section>
+        <section class="info">
+            The purpose of this website is to be used as an introduction to Fort Wayne, a small city located in the
+            midwestern part of United States. For families and individuals who have recently moved to the city, they
+            can information on the city's history, information on current events, and new things happening around the
+            city. 
+        </section>
+    </div>
+
+    <div class="weather">
+        <section class="announcement">
+            Site plan
+        </section>
+        <section class="info">
+            You're cuttently looking at what the site will look like in desktop view, please adjust the size of your
+            browser window to see the different device views for tablets and smartphones.
+        </section>
+    </div>
+
+    <div class="join">
+        <section class="announcement">
+        Typography
+        </section>
+        <section class="info">
+        For this site, I've chosen 'Roboto, Sans-sarif'. I believe it presents a bold, readable text that works well against
+        the color scheme of the site. It's friendly and easy on the eyes.    
+        </section>
+    </div>
+
+    <div class="hero">
+        <h2>
+            Welcome to Fort Wayne
+        </h2>
+        <picture>
+        <img src="images/city-chamber-medium.webp" alt="Hero Image">
+        </picture>
+    </div>
+
+    <div class="news">
+        <section class="announcement">
+            Scenarios
+        </section>
+        <section class="info">
+            Are there monthly meetings for certain HOA's?
+             Will there be Farmers markets? 
+             What's the best school for my child to go?
+             What area of the city should I consider moving to inorder to get my child into that school?
+        </section>
+    </div>
+<div class="spotlight">
+        <div class="spotlight-1">
+            <section class="announcement">
+                Spotlight Color Schema
+            </section>
+            <section class="info">
+                We have three distinct colors that I would to point out that are currently in use.
+                Spotlights, events, and the like will have background color such as the one you see right now.
+            </section>
+        </div>
+
+        <div class="spotlight-2">
+            <section class="announcement">
+                Background Color Schema
+            </section>
+            <section class="info">
+                Any other section on the website will have a backgorund color of the Site plan, Typography,
+                and Site purpose sections of the current webpage. Naturally, the black will be the text, with an 18.01
+                contrast ratio WCAG.
+            </section>
+        </div>
+
+        <div class="spotlight-3">
+            <section class="announcement">
+                Announcemnt Color Schema
+            </section>
+            <section class="info">
+                For announcements, the color that you see above this text is what will be used the catch the users attention.
+            </section>
+        </div>
+</div>
+</main>
+<!--Footer-->
+<footer>
+    <section class="footing">
+        <picture><img src="images/logo.webp" alt="Chamber of Commerce Logo"></picture>
+        <div class="info">
+            FrtWyn@thinqware.com
+            260-888-8888
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96235.89958102457!2d-85.22111086922229!3d41.0827210857709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8815e4ddff22814b%3A0x80077b147642f793!2sFort%20Wayne%2C%20IN!5e0!3m2!1sen!2sus!4v1674917208983!5m2!1sen!2sus" width="100" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!--Update Date-->
+    <section class="update">
+        &copy;<span id="current-year"></span>Fort Wayne Chamber |- River Rhodes -| WDD 230 Project |<span id="update-date"></span>
+    </section>
+</footer>
+<script src="scripts/script.js"></script>
+<script src="scripts/date.js"></script>
+</html>
