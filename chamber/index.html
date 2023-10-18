@@ -56,6 +56,7 @@
         <section class="announcement">
             Ribbon Cutting
         </section>
+        <img src="images/ribbon-cut.png" alt="Grand Openning">
         <section class="info">
             Join us for the grand-openning of our farmers market, an annual event that allows local
             farmers of animals, vegetables, or other sorts of products to sell directly to the community!
@@ -88,7 +89,9 @@
             Welcome to Fort Wayne
         </h2>
         <picture>
-        <img src="images/city-chamber-medium.webp" alt="Hero Image">
+            <source media="(min-width: 82.4em)" srcset="images\heroSub900x600.webp">
+            <source media="(min-width: 37.4em)" srcset="images\heroSub600x400.webp">
+            <img src="images/heroSub300x200.webp" alt="Hero Image">
         </picture>
     </div>
 
@@ -105,6 +108,7 @@
     </div>
 <div class="spotlight">
         <div class="spotlight-1">
+            <img src="images/trim.png" alt="Chainsaw">
             <section class="announcement-3">
                 Got a tree on your property? Trim 'em.
             </section>
@@ -115,6 +119,7 @@
         </div>
 
         <div class="spotlight-2">
+            <img src="images/recycle.png" alt="No Batteries">
             <section class="announcement-4">
                 Give a hoot; don't pollute.
             </section>
@@ -124,6 +129,7 @@
         </div>
 
         <div class="spotlight-3">
+            <img src="images/mower.png" alt="Lawnmower">
             <section class="announcement-5">
                 There is no 'just me' in the community
             </section>
@@ -154,4 +160,5 @@
 <script src="scripts/script.js"></script>
 <script src="scripts/date.js"></script>
 <script src="scripts/dark-mode.js"></script>
+<script src="scripts/weatherapi.js"></script>
 </html>
