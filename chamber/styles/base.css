@@ -52,6 +52,35 @@ grid-row: 1;
 text-align: center;
 }
 /* Main content */
+form #fill{
+display: flex;
+flex-direction: column;
+}
+form #fill label{
+margin: 10px;
+}
+form #fill label input {
+width: 50%;
+border: none;
+border-bottom: 1px solid black;
+margin-bottom: 25px;
+}
+.submitBtn{
+background-color: white;
+height: 70px;
+border-radius: 10px;
+font-size: 2rem;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.submitBtn:hover{
+transition: 0.6s;
+color: white;
+background-color: #32a7c4;
+border-radius: 30px;
+cursor: pointer;
+}
+
 .index{
 display: grid;
 background-color: #faf8f0;

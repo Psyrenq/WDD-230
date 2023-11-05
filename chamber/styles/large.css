@@ -61,6 +61,30 @@ grid-row: 1;
 flex-direction: row;
 }
 /* Content */
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    }
+form #fill{
+    grid-column: 2/4;
+}
+.submitBtn{
+grid-column: 2;
+background-color: white;
+width: auto;
+height: 70px;
+border-radius: 10px;
+font-size: 2rem;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.submitBtn:hover{
+transition: 0.6s;
+color: white;
+background-color: #91999b;
+border-radius: 30px;
+cursor: pointer;
+}
+    
 main.index{
 display: grid;
 grid-template-columns: 1fr 2fr 1fr;

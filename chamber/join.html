@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chamber Home Page Build</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/medium.css">
+<link rel="stylesheet" href="styles/large.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap" rel="stylesheet">
+<meta description = "Chamber of Commerce, River Rhodes, WDD230">
+</head>
+<body>
+<!--Header-->
+<header>
+    <div class="special-date">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
+<div class="logo">
+    <picture><img src="images/logo.webp" alt="Chamber of Commerce Logo"></picture>
+<section class="headings">
+        <h1>Fort Wayne</h1>
+        <div class="q">Chamber of Commerce</div>
+</section>
+</div>
+<!--Navigation-->
+<nav>
+    <button id="menu-button" class="open">
+        <span>X</span><span>&#9776;</span>
+    </button>
+    <ul id="navigation" class="close">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discovery</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    <!--Social Media-->
+        <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
+        <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></l>
+    </ul>
+    </ul>
+</nav>
+<!--Current Date-->
+    <div class="date"></div>
+</header>
+<!--Content-->
+<main>
+    <form>
+        <div id="fill">
+          <label class="top">
+            First Name*<input type="firstName" name="name" required/>
+            </label>
+            <label class="top">
+             Last Name*<input type="lastName" name="name" required/>
+            </label>
+            <label class="top">
+            Title/Position*<input type="title" name="title" required/>
+            </label>
+          <label class="top">
+            Phone*<input type="cell" name="phone" required/>
+            </label>
+          <label class="top">
+            E-mail*<input type="webMail" name="email" required/>
+            </label>
+            <label class="top">
+            Business/Organization*<input type="business" name="business" required/>
+            </label>
+        </div>
+    <input type="submit" value="Join" class="submitBtn">
+    </form>
+</main>
+<!--Footer-->
+<footer>
+    <section class="footing">
+        <picture><img src="images/logo.webp" alt="Chamber of Commerce Logo"></picture>
+        <div class="info">
+            FrtWyn@thinqware.com
+            260-888-8888
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96235.89958102457!2d-85.22111086922229!3d41.0827210857709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8815e4ddff22814b%3A0x80077b147642f793!2sFort%20Wayne%2C%20IN!5e0!3m2!1sen!2sus!4v1674917208983!5m2!1sen!2sus" width="100" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!--Update Date-->
+    <section class="update">
+        &copy;<span id="current-year"></span>Fort Wayne Chamber |- River Rhodes -| WDD 230 Project |<span id="update-date"></span>
+    </section>
+</footer>
+<script src="scripts/script.js"></script>
+<script src="scripts/date.js"></script>
+</html>
