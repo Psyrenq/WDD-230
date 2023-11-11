@@ -1,0 +1,76 @@
+{
+"directory": [
+{
+"name": "Farmers Market",
+"address": "202 Johnny St, Fort Wayne",
+"phone":"260-222-3333",
+"websiteurl": "www.fwfarmersmarket.com",
+"imageurl": "images/farmers-market.png",
+"membership": "🥉Bronze"
+},
+{
+"name": "Electric Works",
+"address": "801 Belle Dr, Fort Wayne",
+"phone": "260-333-4444",
+"websiteurl": "www.fwelectricworks.com",
+"imageurl": "images/electric.png",
+"membership": "🥈Silver"
+},
+{
+"name": "Michigan Power",
+"address": "203 Prince st, Fort Wayne",
+"phone": "260-444-5555",
+"websiteurl": "www.fwmichiganpower.com",
+"imageurl": "images/michigan-power.png",
+"membership": "🥇Gold"
+},
+{
+"name": "YMCA",
+"address": "404 Garfield Ln, Fort Wayne",
+"phone":"260-202-2020",
+"websiteurl": "www.fwymca.com",
+"imageurl": "images/ymca.png",
+"membership": "🥉Bronze"
+},
+{
+"name": "Sports Rec",
+"address": "223 Legacy Dr, Fort Wayne",
+"phone": "260-444-444",
+"websiteurl": "www.fwsportsrec.com",
+"imageurl": "images/sports-rec.png",
+"membership": "🥈Silver"
+},
+{
+"name": "BSA",
+"address": "303 Galaxy rd, Fort Wayne",
+"phone": "260-222-444",
+"websiteurl": "www.fwboyscouts.com",
+"imageurl": "images/boy-scouts.png",
+"membership": "🥇Gold"
+},
+{
+"name": "Hair Stylist Professionals",
+"address": "412 Uphil rd, Fort Wayne",
+"phone": "260-992-511",
+"websiteurl": "www.fwhairstylists.com",
+"imageurl": "images/hair-stylist.png",
+"membership": "🥉Bronze"
+},
+{
+"name": "Wood Treasures",
+"address": "555 Uptown rd, Fort Wayne",
+"phone": "265-276-2876",
+"websiteurl": "www.fwwoodtreasures.com",
+"imageurl": "images/wood-treasures.png",
+"membership": "🥈Silver"
+},
+{
+"name": "Fort Wayne Childrens Zoo",
+"address": "133 Redundant st, Fort Wayne",
+"phone": "260-811-2333",
+"websiteurl": "www.fwchildrenszoo.com",
+"imageurl": "images/children-zoo.png",
+"membership": "🥇Gold"
+}
+]
+}
