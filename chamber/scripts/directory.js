@@ -20,12 +20,12 @@ async function getdirectorydata(url) {
 const response = await fetch (url);
 const data = await response.json();
 
-displaydirectory(data.directory);
+displayrentals(data.directory);
 
 }
 getdirectorydata(url);
 
-const displaydirectory = (directory) => {
+const displayrentals = (directory) => {
 const cards = document.querySelector('.company');
 
 directory.forEach ((directory) => {

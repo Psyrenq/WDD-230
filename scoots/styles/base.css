@@ -1,0 +1,430 @@
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+display: grid;
+grid-template-columns: 2(auto);
+background-color: #fff8ff;
+border: solid #000000;
+border-radius: 10px;
+}
+
+.heading{
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+font-size: 3rem;
+color: #1666c2;
+}
+.p{
+font-family: Impact, sans-serif;
+padding: 2%;
+}
+.logo{
+display: flex;
+margin: 1%;
+flex-direction: row;
+}
+
+.logo img{
+border-radius: 10px;
+}
+
+h1{
+font-size: 1em;
+margin-bottom: 0px;
+}
+.p{
+font-size: .5em;
+}
+
+.logo img{
+object-fit: cover;
+width: 100%;
+}
+
+.logo picture{
+width: 100px;
+height: auto;
+}
+
+nav{
+grid-column: 2;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+a.fa.fa-facebook{
+width: 90%;
+}
+
+a.fa.fa-twitter{
+width: 90%;
+}
+
+a.fa.fa-instagram{
+width: 90%;
+}
+
+.navigation{
+grid-row: 3;
+}
+
+#menu-button{
+grid-column: 1;
+font-size: 1.5rem;
+border-style: none;
+background-color: #1666c2;
+color: white;
+width: 100%;
+}
+
+#menu-button:hover{
+background-color: white;
+transition: 0.6s;
+color: black;
+border-radius: 30px;
+}
+
+nav ul.open {
+display: block;
+}
+
+#menu-button span:nth-child(1) {
+display: block;
+cursor: pointer;
+}
+
+#menu-button span:nth-child(2) {
+display: none;
+cursor: pointer;
+}
+
+#menu-button.open span:nth-child(1) {
+display: none;
+}
+
+#menu-button.open span:nth-child(2) {
+display: block;
+}
+
+nav ul {
+width: 100%;
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: none;
+}
+
+nav ul li a {
+font-weight: bolder;
+display: block;
+padding: 0.5rem 2vw;
+text-decoration: none;
+color: black;
+text-align: center;
+}
+
+nav ul li a:hover {
+transition: 0.6s;
+color: #fff;
+background-color: #1666c2;
+border-radius: 30px;
+}
+
+#reserveBtn{
+background-color: white;
+color: #000;
+width: 100%;
+height: 70px;
+border-radius: 10px;
+font-size: 2rem;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+#reserveBtn:hover{
+background-color: #1666c2;
+transition: 0.6s;
+border-radius: 30px;
+cursor: pointer;
+}
+
+#reserveBtn a:hover{
+text-decoration: none;
+color:#000000;
+}
+
+main{
+display: grid;
+grid-template-columns: 1(auto);
+grid-template-rows: 3(auto);
+background-color: #1666c2;
+border: solid black;
+border-radius: 10px;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+.content-1{
+grid-row: 2;
+background-color: white;
+border: solid black;
+border-radius: 10px;
+padding: 10px;
+text-align: center;
+}
+
+.content-2{
+grid-row: 1;
+background-color: white;
+border-radius: 10px;
+border: solid black;
+padding: 10px;
+text-align: center;
+}
+
+.content-3{
+grid-row: 3;
+background-color: white;
+border-radius: 10px;
+border: solid black;
+padding: 10px;
+text-align: center;
+}
+
+.content-4{
+background-color: white;
+border-radius: 10px;
+border: solid black;
+padding: 10px;
+text-align: center;
+}
+
+.content-5{
+background-color: white;
+border-radius: 10px;
+border: solid black;
+padding: 10px;
+text-align: center;
+}
+.content-8{
+background-color: white;
+border-radius: 10px;
+border: solid black;
+padding: 10px;
+text-align: center;
+}
+.announcement{
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+font-size: 2.5rem;
+text-align: center;
+padding: 10px;
+margin: 10px;
+}
+
+.info{
+font-size:clamp(1rem,2.5vw,1.5rem);
+}
+
+.vehicle img{
+width: 100%;
+border-radius: 10em;
+}
+
+.vacation img{
+width: 100%;
+border-radius: 10em;
+}
+
+.cozumel img{
+object-fit: cover;
+width: 100%;
+height: 200px;
+border-radius: 10px;
+}
+
+.main-3{
+display: flex;
+flex-direction: column;
+}
+
+.content-6{
+background-color: white;
+border-radius: 10px;
+border: solid black;
+padding: 10px;
+text-align: center;
+}
+
+form #fill{
+display: flex;
+flex-direction: column;
+}
+
+form #fill label{
+margin: 10px;
+}
+
+form #fill label input {
+width: 50%;
+border: none;
+border-bottom: 1px solid black;
+margin-bottom: 25px;
+}
+
+#message textarea{
+border: 1px solid rgba(128, 128, 128, 0.448);
+width: 60%;
+}
+.choose label{
+margin-left: px;
+}
+
+.option{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.option select{
+margin: 30px;
+width: 150px;
+font-size: 1.5rem;
+background-color: #32a7c4;
+}
+
+.option select:hover{
+transition: 0.5s;
+background-color: white;
+cursor: pointer;
+border-radius: 10px;
+}
+
+#submit{
+width: 50%;
+height: 50px;
+}
+
+.submitBtn{
+background-color: white;
+width: 70%;
+height: 70px;
+border-radius: 10px;
+font-size: 2rem;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.submitBtn:hover{
+transition: 0.6s;
+color: white;
+background-color: #1666c2;
+border-radius: 30px;
+cursor: pointer;
+}
+
+.submit input {
+margin-left: .9em;
+width: 25rem;
+height: 1.7rem;
+color:white;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+background-color: #1d2601;
+}
+/* Directory */
+.menus{
+margin: 1rem auto;
+padding: 0.5rem;
+text-align: center;
+}
+.direct{
+display: block;
+background-color: rgb(250, 248, 240);
+border-style: solid;
+border-color: #462929;
+}
+#grid{
+background-color: white;
+color: #000;
+width: 100%;
+height: 70px;
+border-radius: 10px;
+font-size: 2rem;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+#grid:hover{
+background-color: #1666c2;
+transition: 0.6s;
+border-radius: 30px;
+cursor: pointer;
+}
+#list{
+background-color: white;
+color: #000;
+width: 100%;
+height: 70px;
+border-radius: 10px;
+font-size: 2rem;
+font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+#list:hover{
+background-color: #1666c2;
+transition: 0.6s;
+border-radius: 30px;
+cursor: pointer;
+}
+.grid div{
+font-weight: bold;
+text-align: center;
+font-size:clamp(1rem, 50%, .5rem);
+}
+section{
+padding: 10px;
+}
+section a{
+text-decoration: none;
+color: #031D44;
+font-size: 1.3rem;
+}
+.company section{
+border: 1px solid black;
+box-shadow: 1px 5px 35px black;
+margin-bottom: 20px;
+border-radius: 20%;
+border-style: none;
+}
+section img{
+border-radius: 200px;
+width: 200px;
+height: auto;
+}
+/*List*/
+.grid h3{
+display: none ;
+}
+.direct .list{
+row-gap: 10px;
+}
+.list div{
+font-weight: bold;
+text-align: left;
+font-size:clamp(1rem, 50%, .5rem);
+}
+.list section{
+border-radius: 0%;
+}
+.list{
+flex-direction: column;
+}
+.list section img{
+display: none;
+}
+.list section{
+margin: 10px;
+padding: 25px;
+}
+.list section h3{
+font-size: 2rem;
+}

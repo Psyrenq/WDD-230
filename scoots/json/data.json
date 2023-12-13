@@ -1,0 +1,58 @@
+{
+"rentals": [
+{
+"h3": "Honda Metropolitan 49CC",
+"imageurl": "images/honda-metro.webp",
+"priceone": "Price w/ reservation for Half day(3hrs): $20",
+"pricetwo": "Price w/ reservation for Full day: $30",
+"pricethree": "Price w/o reservation per day: $25",
+"pricefour": "Price w/o reservation per day: $35",
+"info": "Max. Persons: 1"
+},
+{
+"h3": "Hond Dio 110CC",
+"imageurl": "images/honda-dio.webp",
+"priceone": "Price w/ reservation for Half day(3hrs): $30",
+"pricetwo": "Price w/ reservation for Full day: $40",
+"pricethree": "Price w/o reservation for Half day(3hrs): $35",
+"pricefour": "Price w/o reservation for Full day: $45",
+"info": "Max. Persons: 2"
+},
+{
+"h3": "Honda PCX150 149CC",
+"imageurl": "images/honda-pcx.webp",
+"priceone": "Price w/ reservation for Half day(3hrs): $40",
+"pricetwo": "Price w/ reservation for Full day: $50",
+"pricethree": "Price w/o reservation for Half day(3hrs): $45",
+"pricefour": "Price w/o reservation for Full day: $55",
+"info": "Max. Persons: 2"
+},
+{
+"h3": "Honda Pioneer 1000 - 4-seater",
+"imageurl": "images/honda-pioneer.webp",
+"priceone": "Price w/ reservation for Half day(3hrs): $50",
+"pricetwo": "Price w/ reservation for Full day: $70",
+"pricethree": "Price w/o reservation for Half day(3hrs): $60",
+"pricefour": "Price w/o reservation for Full day: $80",
+"info": "Max. Persons: 4"
+},
+{
+"h3": "Jeep Wrangler - 4dr Manuel with A/C - 5-seater",
+"imageurl": "images/jeep-1.webp",
+"priceone": "Price w/ reservation for Half day(3hrs): $70",
+"pricetwo": "Price w/ reservation for Full day: $100",
+"pricethree": "Price w/o reservation for Half day(3hrs): $85",
+"pricefour": "Price w/o reservation for Full day: $125",
+"info": "Max. Persons: 5"
+},
+{
+"h3": "Jeep Wrangler - 2dr Manuel - NO A/C ",
+"imageurl": "images/jeep-2.webp",
+"priceone": "Price w/ reservation for Half day(3hrs): $60",
+"pricetwo": "Price w/ reservation for Full day: $85",
+"pricethree": "Price w/o reservation per day: $70",
+"pricefour": "Price w/o reservation per day: $90",
+"info": "Max. Persons: 4"
+}
+]
+}

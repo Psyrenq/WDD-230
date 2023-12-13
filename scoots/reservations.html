@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>scoots</title>
+    <meta name="description" content="Scoots, River Rhodes, WDD-230">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <picture id="scoots"><img src="images/scoots-logo.webp" alt="Scoots"></picture>
+            <section class="heading">
+            <h1>Scoots</h1>
+            <div class="p">Auto Rental Services</div>
+            </section>
+        </div>
+        <nav>
+            <button id="menu-button" class="open">
+                <span>X</span><span>&#9776;</span>
+            </button>
+            <ul id="navigation" class="close">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="rental.html">RENTALS</a></li>
+            <li><a href="reservations.html">RESERVATIONS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
+            <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-3">
+    <section class="content-8">
+    <h2>Rental Services and Agreements</h2>
+    A $50 security deposit is required to confirm reservations.
+    A valid drivers license is required in hand at the time of rental.
+    No one under the age of 12 years of age are allowed to ride on the scooters.
+    Fuel charge is not included.
+    Unlimited mileage.
+    Liability insurance is included.
+    Damage insurance is available for purchase.
+    Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.
+    Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.
+    Rentals may be returned to either physical location.
+    </section>
+    <section class="content-6">
+        <div class="announcement"></div>
+      <div class="info">Place your order!</div>
+      <form>
+        <div id="fill">
+          <label class="top">
+            Name*<input type="firstName" name="name" required/>
+            </label>
+          <label class="top">
+            Phone*<input type="cell" name="phone" required/>
+            </label>
+          <label class="top">
+            E-mail*<input type="webMail" name="email" required/>
+            </label>
+          <label class="top">
+            Arrivale Date*<input type="info" name="arrival" required/>
+          </label>
+          <label class="top">
+            Rental type*<input type="choice" name="rental" required/>
+          </label>
+          <label class="top">
+          Home state/Country*<input type="living" name="home" required/>
+          </label>
+          <label class="top">
+            Cruise line(if applicable)*<input type="cruise" name="ship" required/>
+          </label>
+          </div>
+        <div id="message">
+          <label class="top">
+            <div class="info">special instructions</div>
+            <textarea>
+            </textarea>
+          </label>
+        </div>
+          <input type="submit" value="Reserve" class="submitBtn">
+      </form>
+    </section>
+    <section class="content-7">
+        <picture class="cozumel"><img src="images/cozumel-beach.webp" alt="mexico-cozumel"></picture>
+    </section>
+    </main>
+    <footer>
+        <section class="footing">
+       </section>
+        <!--Update Date-->
+        <section class="update">
+            &copy;<span id="current-year"></span> Scoots |- River Rhodes -| WDD 230 Final Project |<span id="update-date"></span>
+        </section>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

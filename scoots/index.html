@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>scoots</title>
+    <meta name="description" content="Scoots, River Rhodes, WDD-230">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <picture id="scoots"><img src="images/scoots-logo.webp" alt="Scoots"></picture>
+            <section class="heading">
+            <h1>Scoots</h1>
+            <div class="p">Auto Rental Services</div>
+            </section>
+        </div>
+        <nav>
+            <button id="menu-button" class="open">
+                <span>X</span><span>&#9776;</span>
+            </button>
+            <ul id="navigation" class="close">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="rental.html">RENTALS</a></li>
+            <li><a href="reservations.html">RESERVATIONS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
+            <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-1">
+            <div class="announcement">Need a ride?</div>
+            <picture class="vehicle"><img src="images/jeep-1.webp" alt="Vehicle"></picture>
+            <div class="info">
+                Looking for a week vacation somewhere your friends haven't been? Best to show off in a nice ride, or if you're
+                more conservative, we have options for everyone. Please stop by our rental's page for our current inventory.
+            </div>
+            <button id="reserveBtn"><a href="rental.html">VEHICLES</a></button> 
+        </section>
+        <section class="content-2">
+            <div class="announcement">Welcome</div>
+            <picture class="vacation"><img src="images/cozumel.webp" alt="Destination"></picture>
+            <div class="info">
+                Scoots is a first class vehicle rental service. We offer scooters, all-terrain vehicles, and off-road SUV's.
+                This a privately owned and operated company by River Rhodes.
+                We have two locations across Quintana Roo.
+            </div>
+        </section>
+        <section class="content-3">
+            <div class="announcement">WEATHER</div>
+            <div class="info">
+                <div id="weather">
+                    <div class="announcement">Today</div>
+                    <div class="info"><span id="temperature"></span>ºF</div>
+                    <div class="info">Feels like: <span id="feelslike"></span>ºF</div>
+                    <figure>
+                        <img src="" alt="" id="weather-icon">
+                    </figure>
+                    <div class="announcement"><span id="description"></span></div>
+                    <div class="info">Humidity: <span id="humidity"></span>%</p></div>
+                </div>
+                <div id="3-day">
+                    <div class="announcement">
+                        Tomorrow
+                    </div>
+                        <div class="info">
+                            <span id="temp1"></span>ºF
+                        </div>
+                    <div class="announcement">
+                        Day 3
+                    </div>
+                    <div class="info">
+                        <span id="temp2"></span>ºF
+                    </div>
+                    <div class="announcement">
+                        Day 4
+                    </div>
+                    <div class="info">
+                        <p><span id="temp3"></span>ºF</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footing">
+       </section>
+        <!--Update Date-->
+        <section class="update">
+            &copy;<span id="current-year"></span> Scoots |- River Rhodes -| WDD 230 Final Project |<span id="update-date"></span>
+        </section>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
+
+</body>
+</html>
